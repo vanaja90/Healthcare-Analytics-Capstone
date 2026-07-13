@@ -1,0 +1,42 @@
+[
+  {
+    "Patient_ID": "P001",
+    "First_Name": "John",
+    "Age": 45,
+    "Gender": "Male",
+    "Primary_Complaint": "Diabetes",
+    "Visit_Date": "2026-07-01"
+  },
+  {
+    "Patient_ID": "P002",
+    "First_Name": "Emma",
+    "Age": 32,
+    "Gender": "Female",
+    "Primary_Complaint": "Hypertension",
+    "Visit_Date": "2026-07-02"
+  },
+  {
+    "Patient_ID": "P003",
+    "First_Name": "Michael",
+    "Age": 61,
+    "Gender": "Male",
+    "Primary_Complaint": "Asthma",
+    "Visit_Date": "2026-07-03"
+  },
+  {
+    "Patient_ID": "P004",
+    "First_Name": "Sophia",
+    "Age": 29,
+    "Gender": "Female",
+    "Primary_Complaint": "Migraine",
+    "Visit_Date": "2026-07-03"
+  },
+  {
+    "Patient_ID": "P005",
+    "First_Name": "David",
+    "Age": 53,
+    "Gender": "Male",
+    "Primary_Complaint": "High Cholesterol",
+    "Visit_Date": "2026-07-04"
+  }
+]

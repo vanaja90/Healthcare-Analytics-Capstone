@@ -1,0 +1,6 @@
+Patient_ID,First_Name,Age,Gender,Primary_Complaint,Visit_Date
+P001,John,45,Male,Diabetes,2026-07-01
+P002,Emma,32,Female,Hypertension,2026-07-02
+P003,Michael,61,Male,Asthma,2026-07-03
+P004,Sophia,29,Female,Migraine,2026-07-03
+P005,David,53,Male,High Cholesterol,2026-07-04
