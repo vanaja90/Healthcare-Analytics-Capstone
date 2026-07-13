@@ -1,0 +1,27 @@
+validate_intake_data.sql
+-- Insert Sample Patient Records
+
+INSERT INTO patient_intake_data (patient_id, age, gender, primary_complaint)
+VALUES
+('P001', 45, 'Male', 'Diabetes'),
+('P002', 32, 'Female', 'Hypertension'),
+('P003', 61, 'Male', NULL);
+
+-------------------------------------------------
+-- Check for Missing Primary Complaint
+-------------------------------------------------
+
+SELECT *
+FROM patient_intake_data
+WHERE primary_complaint IS NULL;
+
+-------------------------------------------------
+-- Check for Duplicate Patient IDs
+-------------------------------------------------
+
+SELECT
+    patient_id,
+    COUNT(*) AS duplicate_count
+FROM patient_intake_data
+GROUP BY patient_id
+HAVING COUNT(*) > 1;
