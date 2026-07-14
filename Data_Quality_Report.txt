@@ -1,0 +1,7 @@
+# Week 1 – Data Quality Report
+
+This week, I worked with simulated patient intake data in CSV and JSON formats to understand the importance of data quality in healthcare analytics. During the validation process, I identified common issues such as missing values in the **Primary_Complaint** field and the possibility of duplicate **Patient_ID** records. These problems can reduce data accuracy and affect the reliability of healthcare analysis.
+
+To process the data, I used Python with the **pandas** library to read and parse both CSV and JSON files. This allowed me to extract important fields such as Patient ID, Age, Gender, Primary Complaint, and Visit Date. I then used SQL queries to validate the data by identifying missing values using the **IS NULL** condition and checking for duplicate records using **GROUP BY** and **HAVING COUNT(*) > 1**.
+
+After reviewing the results, I cleaned the sample data by replacing missing primary complaint values with **"UNKNOWN"** and ensuring that each patient record remained unique. Clean and accurate data is essential in pharmaceutical and biotech projects because incorrect or incomplete information can lead to inaccurate clinical trial results, poor business decisions, and regulatory compliance issues. This exercise strengthened my understanding of data validation, cleaning, and maintaining high-quality healthcare datasets before performing further analysis.
